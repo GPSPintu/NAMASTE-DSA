@@ -102,6 +102,6 @@ function oddEven(n) {
     }
 }
 
-// Calling oddEven function
+// Calling oddEven function .
 oddEven(10);  // Even
 oddEven(11);  // Odd
