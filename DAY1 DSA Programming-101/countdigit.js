@@ -1,22 +1,29 @@
-// Function that returns the count of digits in a number
+// Function to count the number of digits in a given integer
 function countDigit(n) {
 
-    // If the number is 0, it has exactly 1 digit
+    // Special case: if the number is exactly 0, it has one digit
     if (n == 0) return 1;
 
-    let count = 0; // Variable to store number of digits
+    let count = 0; // This variable will keep track of how many digits we’ve counted so far
 
-    n = Math.abs(n); // Convert to positive for handling negative numbers
+    // Handle negative numbers by converting them to positive
+    // Math.abs(n) returns the absolute value of n (e.g., -123 → 123)
+    n = Math.abs(n);
 
-    // Loop runs while n is greater than 0
+    // Repeat until there are no digits left
     while (n > 0) {
-        n = Math.floor(n / 10); // Remove the last digit
-        count++;                // Increase count for each removed digit
+        // Remove the last digit of n
+        // For example: if n = 2789 → Math.floor(2789 / 10) = 278
+        n = Math.floor(n / 10);
+
+        // Increase the digit count for every iteration
+        count++;
     }
 
-    return count; // Return the total number of digits
+    // After the loop, `count` holds the total number of digits
+    return count;
 }
 
-// Test the function
+// Example test
 let result = countDigit(278907589);
-console.log(result);
+console.log(result); // Output: 9
