@@ -25,5 +25,5 @@ function countDigit(n) {
 }
 
 // Example test
-let result = countDigit(278907589);
+let result = countDigit(278907589)
 console.log(result); // Output: 9
