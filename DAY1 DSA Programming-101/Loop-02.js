@@ -78,7 +78,7 @@ function checkLargestNumInArray(arr) {
 }
 
 let resultLargest = checkLargestNumInArray(largestArray);
-console.log(resultLargest); // Output: 500
+console.log(resultLargest); 
 
 
 
