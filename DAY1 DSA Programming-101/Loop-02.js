@@ -1,108 +1,121 @@
 // ------------------------------------------------------------
-// 1. Function that searches for an element in an array 
-//    and returns its index. If not found, returns -1.
+// 1. Function to search for an element in an array 
+//    Returns the index if found, otherwise returns -1.
 // ------------------------------------------------------------
 
-// Sample array
+// Sample array to test the function
 let arr = [2, 4, 5, 0, 8, 30, 10, 25, 9];
 
 function searchElement(arr, target) {
 
-    // Loop through each element of the array
+    // Loop through each index of the array
     for (let i = 0; i < arr.length; i++) {
-        
-        // Check if the current element matches the target
+
+        // Check if the current element matches the target value
         if (arr[i] === target) {
-            return i;  // Return the index where element is found
+
+            // If match found, return the index immediately
+            return i;
         }
     }
 
-    // If loop finishes without finding the element
+    // If loop finishes without finding the target, return -1
     return -1;
 }
 
-console.log(searchElement(arr, 5));  // Output: 2
-console.log(searchElement(arr, 90)); // Output: -1
+// Testing the function
+console.log(searchElement(arr, 5));   // Output: 2
+console.log(searchElement(arr, 90));  // Output: -1
 
 
 
 // ------------------------------------------------------------
-// 2. Function that returns the number of negative numbers 
-//    in an array
+// 2. Function to count how many negative numbers are present
+//    in an array.
 // ------------------------------------------------------------
 
-// Mixed array containing both positive and negative numbers
+// Mixed array containing positive and negative numbers
 let mixedArray = [2, 9, -7, -10, 20, 50, -200, 36, -55, -90, 65];
 
-function checkNegativeNumber(arr) {
+function countNegativeNumbers(arr) {
 
-    let count = 0; // counter for negative numbers
+    let count = 0;  // Variable to count negative numbers
 
-    // Loop through each array element
+    // Loop through each element in the array
     for (let i = 0; i < arr.length; i++) {
-        
-        // Check if number is negative
+
+        // If an element is negative
         if (arr[i] < 0) {
-            count++; // increase count
+            count++;  // Increase the counter
         }
     }
 
-    return count; // return how many negative numbers were found
+    // Return total negative count
+    return count;
 }
 
-let negativeResult = checkNegativeNumber(mixedArray);
-console.log(negativeResult); // Output: 5
+// Storing result and printing it
+let negativeCount = countNegativeNumbers(mixedArray);
+console.log(negativeCount);  // Output: 5
 
 
 
 // ------------------------------------------------------------
-// 3. Function that returns the largest number in an array
+// 3. Function to find the largest number in an array
 // ------------------------------------------------------------
 
 let largestArray = [5, 10, 200, 500, 20, 29, 50];
 
-function checkLargestNumInArray(arr) {
+function findLargest(arr) {
 
-    let max = arr[0]; // assume first element is the largest
+    let max = arr[0];  // Assume the first element is the largest
 
-    // Loop through all elements
+    // Loop through the array
     for (let i = 0; i < arr.length; i++) {
-        
-        // If current element is greater than max, update max
+
+        // If current element is greater than max
         if (arr[i] > max) {
+
+            // Update max to the new largest number
             max = arr[i];
         }
     }
 
-    return max; // return the largest number
+    // Return the largest number found
+    return max;
 }
 
-let resultLargest = checkLargestNumInArray(largestArray);
-console.log(resultLargest); 
+// Testing the function
+let largestValue = findLargest(largestArray);
+console.log(largestValue);   // Output: 500
 
 
 
 // ------------------------------------------------------------
-// 4. Function that returns the smallest number in an array
+// 4. Function to find the smallest number in an array
 // ------------------------------------------------------------
 
 let smallestArray = [5, 10, 200, 500, 20, 29, 50];
 
-function checkSmallNumInArray(arr) {
+function findSmallest(arr) {
 
-    let min = arr[0]; // assume first element is the smallest
+    let min = arr[0];  // Assume the first element is the smallest
 
-    // Loop through each element
+    // Loop through each array element
     for (let i = 0; i < arr.length; i++) {
 
-        // If current element is smaller than min, update min
+        // If current element is smaller than 'min'
         if (arr[i] < min) {
+
+            // Update min to new smallest number
             min = arr[i];
         }
     }
 
-    return min; // return the smallest number found
+    // Return the smallest number found
+    return min;
 }
 
-let resultSmallest = checkSmallNumInArray(smallestArray);
-console.log(resultSmallest); // Output: 5
+// Testing the function
+let smallestValue = findSmallest(smallestArray);
+console.log(smallestValue);  // Output: 5
