@@ -31,7 +31,7 @@ function checkNumPalindrome(n) {
     if (rev === original) {
         return true;
     } else {
-        // Otherwise → NOT palindrome
+        // Otherwise → (NOT palindrome)
         return false;
     }
 }
