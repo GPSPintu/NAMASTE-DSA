@@ -37,9 +37,9 @@ function checkNumPalindrome(n) {
 }
 
 // Test numbers
-let n = 121;     //
+let n = 121;     //Palindrome
 let m = 12121;   // Palindrome
-let o = -121;    // Not palindrome (negative)
+let o = -121;    // 
 
 // Output results
 console.log(checkNumPalindrome(n));  // true
