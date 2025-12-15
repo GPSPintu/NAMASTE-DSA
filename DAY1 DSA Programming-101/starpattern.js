@@ -204,7 +204,8 @@ console.log("\n");
 
 
 // ------------------------------------------------------
-// Binary Pattern – 9 (Alternate Row Start)
+// Binary Pattern – 9
+
 // 1
 // 01
 // 010
