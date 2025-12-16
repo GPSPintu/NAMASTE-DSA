@@ -34,4 +34,4 @@ function secondLargest(arr) {
 
 // Calling the function and logging the result
 let result = secondLargest(newArray);
-console.log(result);  // Output: 1000
+console.log(result);  // : 1000
