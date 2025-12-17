@@ -9,7 +9,7 @@ const a = 10;
 const b = 20;
 
 // Performing arithmetic operations
-const sum = a + b;        // addition
+const sum = a + b;        // add
 const multiply = a * b;   // multiplication
 const difference = a - b; // subtraction
 
