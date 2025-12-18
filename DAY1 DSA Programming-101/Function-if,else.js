@@ -2,106 +2,96 @@
 // Function to print Hello World
 // -----------------------------
 function printHelloWorld() {
-    console.log("Hello World");  // Print message to console
+    console.log("Hello World");
 }
 
-// Calling the function
+// Call the function
 printHelloWorld();
 
 
 // -----------------------------------------
-// Function that greets a person by their name
+// Function to greet a person by their name
 // -----------------------------------------
-function greet(name) {           
-    console.log("Namaste," + name);  // Print greeting with name
+function greet(name) {
+    console.log("Namaste, " + name);
 }
 
-// Calling greet() with different names
+// Calling greet() with values
 greet("Kapil");
 greet("Akshay");
 
-let x = "Virat Kohli";  // Storing a name in variable x
-greet(x);               // Passing variable x to the function
+let x = "Virat Kohli";
+greet(x);
 
 
-// ----------------------------------
+// -----------------------------
 // Function to add two numbers
-// ----------------------------------
+// -----------------------------
 function add(a, b) {
-    let c = a + b;  // Add numbers a and b
-    console.log("Addition of Two Numbers:", c);  // Print the result
+    let result = a + b;
+    console.log("Addition of Two Numbers:", result);
 }
 
-// Calling add function
+// Call add function
 add(10, 5);
 
 
-// ----------------------------------
+// ---------------------------------
 // Function to multiply two numbers
-// ----------------------------------
+// ---------------------------------
 function multiply(a, b) {
-    let c = a * b;  // Multiply numbers a and b
-    console.log("Multiplicatiion of two numbers:", c);  // Print result
+    let result = a * b;
+    console.log("Multiplication of Two Numbers:", result);
 }
 
-// Calling multiply function
+// Call multiply function
 multiply(10, 20);
 
 
 // ----------------------------------
-// Function to return the square of a number
+// Function to return square of a number
 // ----------------------------------
-function square(x) {
-    let result = x * x;  // Square the number
-
-    return result;       // Return the squared value
+function square(num) {
+    return num * num;
 }
 
-let squareResult = square(5);  // Calling square(5)
-console.log(squareResult);     // Printing 25
+let squareResult = square(5);
+console.log(squareResult);
 
-let z = square(10);   // Calling square(10)
-console.log(z);       // Printing 100
+let z = square(10);
+console.log(z);
 
 
-// ----------------------------------------------------------
-// Function to check if a person is eligible for voting or not
-// ----------------------------------------------------------
+// ------------------------------------------------
+// Function to check voting eligibility
+// ------------------------------------------------
 function votingEligibility(age) {
-    
-    if (age >= 18) {  // Condition for voting eligibility
-        console.log("Eligible For Voting");
-    }
-    else if (age <= 0) {  // Invalid age check
+    if (age <= 0) {
         console.log("Invalid age");
-    }
-    else {  // If age is positive but less than 18
+    } else if (age >= 18) {
+        console.log("Eligible For Voting");
+    } else {
         console.log("Not Eligible for Vote");
     }
 }
 
-// Calling the votingEligibility function with different ages
+// Function calls
 votingEligibility(20);
 votingEligibility(10);
 votingEligibility(-1);
 
 
 // ----------------------------------
-// Function to check if a number is Even or Odd
+// Function to check Even or Odd
 // ----------------------------------
 function oddEven(n) {
-    
-    // Find remainder when n is divided by 2
-    let rem = n % 2;  
-    
-    if (rem === 0) {
-        console.log("Even Number");  // If remainder is 0 → Even
-    }
-    else {
-        console.log("Odd Number");   // If remainder is not 0 → Odd
+    if (n % 2 === 0) {
+        console.log("Even Number");
+    } else {
+        console.log("Odd Number");
     }
 }
 
-// Calling oddEven function .
-oddEven(10);  // Even
-oddEven(11);  // Odd
+// Function calls
+oddEven(10);
+oddEven(11);
