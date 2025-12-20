@@ -118,4 +118,4 @@ function findSmallest(arr) {
 
 // Testing the function
 let smallestValue = findSmallest(smallestArray);
-console.log(smallestValue);  // Result : 5
+console.log(smallestValue);  // Output : 5
