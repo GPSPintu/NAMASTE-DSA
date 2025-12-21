@@ -21,7 +21,7 @@ function reverseInteger(n) {
         return 0;
     }
 
-    // Restore sign if original number was negative
+  
     return original < 0 ? -rev : rev;
 }
 
