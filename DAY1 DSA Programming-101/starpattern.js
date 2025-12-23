@@ -100,7 +100,7 @@ console.log("\n");
 
 
 // ------------------------------------------------------
-// Number Pattern – 5 (Reverse Number Triangle)
+// Number Pattern – 5 (Decreasing Numbers)
 // 12345
 // 1234
 // 123
