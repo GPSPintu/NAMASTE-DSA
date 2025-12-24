@@ -148,8 +148,7 @@ console.log("\n");
 
 
 // ------------------------------------------------------
-// Star Pattern – 7 (Right-aligned Triangle)
-//     *
+// Star Pattern – 7 
 //    **
 //   ***
 //  ****
