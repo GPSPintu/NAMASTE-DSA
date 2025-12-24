@@ -1,4 +1,4 @@
-// Reverse an Integer
+
 // Signed 32-bit integer
 
 function reverseInteger(n) {
