@@ -27,4 +27,4 @@ function reverseInteger(n) {
 
 // Test
 const result = reverseInteger(123456789);
-console.log(result); // 987654321
+console.log(result); //Output: 987654321
