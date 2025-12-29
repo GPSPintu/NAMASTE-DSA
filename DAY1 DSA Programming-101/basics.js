@@ -56,7 +56,7 @@ console.log(newArr[5][1][0]);
 // Object example
 let obj = {
     a: 1,
-    myName: "Pintu", //pintu
+    myName: "Pintu Pandit", //  Pintu Pandit
     bool: true,
     arr: [6, 7, 9]
 };
