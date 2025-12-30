@@ -36,7 +36,7 @@ console.log(fullName);
 // Reassigning variable with a different data type
 let newValue = "John";
 newValue = 5;
-console.log(newValue); // Now it prints 5
+console.log(newValue); //  prints 5
 
 // Array example
 let arr = [2, 9, 50, 30, 60, 27, 100];
