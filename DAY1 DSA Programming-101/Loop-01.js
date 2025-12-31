@@ -1,5 +1,5 @@
 // ---------------------------------------------
-// 1) Simple For Loop
+// 1) Simple problem for  Loop
 // ---------------------------------------------
 // This loop runs from i = 0 to i = 2 (total 3 times)
 for (let i = 0; i <= 2; i++) {
