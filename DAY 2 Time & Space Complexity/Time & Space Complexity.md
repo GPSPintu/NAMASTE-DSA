@@ -9,7 +9,7 @@ They help us measure how an algorithm performs as the input size grows.
 
 **Time Complexity** measures the efficiency of an algorithm in terms of **execution time** as the input size (`n`) increases.
 
-👉 **Lower Time Complexity = Faster Algorithm**
+ **Lower Time Complexity = Faster Algorithm**
 
 It describes how the running time of an algorithm grows with respect to input size.
 
