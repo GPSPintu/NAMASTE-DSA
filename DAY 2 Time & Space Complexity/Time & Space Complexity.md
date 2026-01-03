@@ -40,7 +40,7 @@ It includes:
 
 ---
 
-### Common Space Complexities
+## Common Space Complexities
 
 | Notation | Meaning |
 |--------|--------|
