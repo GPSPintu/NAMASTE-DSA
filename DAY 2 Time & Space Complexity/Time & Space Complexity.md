@@ -50,7 +50,7 @@ It includes:
 
 ---
 
-## 📌 Key Takeaways
+📌 Key Takeaways
 
 - Time Complexity focuses on **speed**
 - Space Complexity focuses on **memory**
