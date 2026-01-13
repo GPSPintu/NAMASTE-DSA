@@ -59,7 +59,7 @@ x = new length
 First x elements contain valid values
 
  Example Dry Run
-🔧 Input
+ Input
 nums = [3, 2, 1, 5, 3, 4, 8, 3]
 val = 3
 
