@@ -73,7 +73,7 @@ i	nums[i]	nums[i] ≠ val	Action	Updated Array	x
 5	4	✅	nums[3]=4	[2,1,5,4,3,4,8,3]	4
 6	8	✅	nums[4]=8	[2,1,5,4,8,4,8,3]	5
 7	3	❌	Skip	No change	5
-✅ Final Result
+
 
 New Length: 5
 
