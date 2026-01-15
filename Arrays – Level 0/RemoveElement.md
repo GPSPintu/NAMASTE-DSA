@@ -11,7 +11,7 @@ Elements beyond the returned length do not matter
 
 We solve this problem using an in-place two-pointer approach that avoids using extra memory.
 
-💻 JavaScript Implementation
+JavaScript Implementation
 var removeElement = function (nums, val) {
     let x = 0; // pointer for next valid element
 
