@@ -7,7 +7,7 @@ The relative order of remaining elements may be changed
 
 Elements beyond the returned length do not matter
 
-🧠 Approach (Two Pointer Technique)
+Approach (Two Pointer Technique)
 
 We solve this problem using an in-place two-pointer approach that avoids using extra memory.
 
