@@ -1,5 +1,5 @@
-🧪 Remove Element from Array (In-Place) — Dry Run & Explanation
-📌 Problem Statement
+ Remove Element from Array (In-Place) — Dry Run & Explanation
+ Problem Statement
 
 Given an integer array nums and an integer value val, remove all occurrences of val in-place and return the new length of the array.
 
