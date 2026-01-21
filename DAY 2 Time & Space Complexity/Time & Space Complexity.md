@@ -29,7 +29,7 @@ It describes how the running time of an algorithm grows with respect to input si
 
 ---
 
-## 💾 Space Complexity
+##  Space Complexity
 
 **Space Complexity** measures how much **extra memory** an algorithm requires relative to the input size.
 
