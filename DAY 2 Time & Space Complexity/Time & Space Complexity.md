@@ -5,7 +5,7 @@ They help us measure how an algorithm performs as the input size grows.
 
 ---
 
-## ⏱️ Time Complexity
+## ⏱ Time Complexity
 
 **Time Complexity** measures the efficiency of an algorithm in terms of **execution time** as the input size (`n`) increases.
 
@@ -50,7 +50,7 @@ It includes:
 
 ---
 
-###📌 Key Takeaways
+### Key Takeaways
 
 - Time Complexity focuses on **speed**
 - Space Complexity focuses on **memory**
