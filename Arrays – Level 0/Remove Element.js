@@ -13,11 +13,11 @@ var removeElement = function (nums, val) {
         if (nums[i] !== val) {
             nums[x] = nums[i];
             x++;
-        }
-    }
-
+        }   
     // x represents the count of elements not equal to val
     return x;
+    }
+
 };
 
 // Example input
