@@ -4,7 +4,7 @@ This repository contains my **Data Structures and Algorithms (DSA)** practice co
 
 ---
 
-## 🚀 Purpose of This Repository
+# 🚀 Purpose of This Repository
 
 - Practice core **DSA concepts**
 - Improve **logical thinking & optimization skills**
@@ -13,7 +13,7 @@ This repository contains my **Data Structures and Algorithms (DSA)** practice co
 
 ---
 
-## 🧠 Topics Covered
+# 🧠 Topics Covered
 
 - Arrays
 - Strings
@@ -28,12 +28,13 @@ This repository contains my **Data Structures and Algorithms (DSA)** practice co
 
 ---
 
-## 💻 Languages Used
+# 💻 Languages Used
 
 - JavaScript *(Primary)*
 - (Can be extended to Java / Python if added later)
 
 ---
 
-## 📂 Repository Structure
+
+# 📂 Repository Structure
 
