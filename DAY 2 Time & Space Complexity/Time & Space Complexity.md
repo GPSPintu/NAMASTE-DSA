@@ -38,7 +38,6 @@ This includes:
 - Data structures
 - Function call stack (recursion)
 
----
 
 ## Common Space Complexities
 
@@ -48,7 +47,7 @@ This includes:
 | **O(n)** | Linear space – memory grows with input size |
 | **O(n²)** | Quadratic space – typically used in 2D arrays |
 
----
+
 
 ## ✅ Key Takeaways
 
