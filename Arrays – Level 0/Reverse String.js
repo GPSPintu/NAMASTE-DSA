@@ -9,11 +9,13 @@
 // right--
 // Continue until left < right.
 var reverseString = function(s) {
-    let left = 0, right = s.length - 1;
+    let len = s.length;
+    let halfLen = Math.floor(len / 2);
 
-    while (left < right) {
-        [s[left], s[right]] = [s[right], s[left]];
-        left++;
-        right--;
+    for (let i = 0; i < halfLen; i++) {
+        let temp = s[i];
+        s[i] = s[len - i - 1];
+        s[len - i - 1] = temp;
     }
 };
+  
