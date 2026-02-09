@@ -25,7 +25,7 @@ function reverseInteger(n) {
     return original < 0 ? -rev : rev;
 }
 
-// Test
+// Output
 const result = reverseInteger(123456789);
 console.log(result); 
 
