@@ -12,6 +12,6 @@ var merge = function(nums1, m, nums2, n) {
         nums1[i] = nums2[i - m];
     }
 
-    // Sort the merged array
+    // Sort the merged Array
     nums1.sort((a, b) => a - b);
 };
