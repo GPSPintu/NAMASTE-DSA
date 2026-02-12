@@ -1,17 +1,15 @@
-// You are given two integer arrays nums1 and nums2, sorted in non-decreasing order, and two integers m and n, representing the number of elements in nums1 and nums2 respectively.
-
-// Merge nums1 and nums2 into a single array sorted in non-decreasing order.
-
-// The final sorted array should not be returned by the function, but instead be stored inside the array nums1. To accommodate this, nums1 has a length of m + n, where the first m elements denote the elements that should be merged, and the last n elements are set to 0 and should be ignored. nums2 has a length of n.
-
-
 var merge = function(nums1, m, nums2, n) {
 
-    // Copy nums2 into nums1
+    // Loop starting from index m (where empty spaces start in nums1)
+    // nums1 has extra space at the end to hold nums2 elements
     for (let i = m; i < nums1.length; i++) {
+
+        // Copy elements from nums2 into nums1
+        // (i - m) is used because nums2 starts from index 0
         nums1[i] = nums2[i - m];
     }
 
-    // Sort the merged Array
+    // Sort the combined array in ascending order
+    // Default sort converts numbers to strings, so comparator is needed
     nums1.sort((a, b) => a - b);
 };
