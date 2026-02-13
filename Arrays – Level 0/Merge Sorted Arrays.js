@@ -13,3 +13,5 @@ var merge = function(nums1, m, nums2, n) {
     // Default sort converts numbers to strings, so comparator is needed
     nums1.sort((a, b) => a - b);
 };
+
+//done 
