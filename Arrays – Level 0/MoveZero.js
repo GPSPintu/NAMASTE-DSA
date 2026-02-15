@@ -1,9 +1,7 @@
 // Given an integer array nums, move all 0s to the end while maintaining the relative order of the non-zero elements.
 
-// 👉 Conditions:
-
+//  Conditions:
 // Do it in-place.
-
 // Do NOT create a new array.
 
 var moveZeroes = function(nums) {
