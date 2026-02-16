@@ -17,7 +17,6 @@ var moveZeroes = function(nums) {
         }
     }
 
-    // Fill remaining positions with zeros
     for (let i = x; i < nums.length; i++) {
         nums[i] = 0;
     }
