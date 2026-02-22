@@ -2,7 +2,7 @@
 
 This repository contains my **Data Structures and Algorithms (DSA)** practice codes, written to strengthen problem-solving skills and build strong fundamentals for technical interviews.
 
----
+
 
 # 🚀 Purpose of This Repository
 
@@ -11,7 +11,7 @@ This repository contains my **Data Structures and Algorithms (DSA)** practice co
 - Prepare for **technical interviews**
 - Maintain a structured record of solved problems
 
----
+-
 
 # 🧠 Topics Covered
 
@@ -26,7 +26,7 @@ This repository contains my **Data Structures and Algorithms (DSA)** practice co
 - Basic Mathematics
 - Time & Space Complexity
 
----
+
 
 # 💻 Languages Used
 
